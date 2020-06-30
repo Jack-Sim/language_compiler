@@ -1,0 +1,6 @@
+This is the minimal possible operations that can be performed by the language created
+
+program = "print", "(", expression, ")", ";";
+expression = number, { ("+"|"-"), number };
+number = digit+
+digit = [0-9];
